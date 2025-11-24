@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bondo Matuatunguila - Família vamos construir</title>
+    <meta name="description" content="Escola Bondo Matuatunguila - Sistema de matrícula online e gestão académica">
+    <meta name="keywords" content="escola angola, matrícula online, ensino, bindo matuatunguila">
+    <meta property="og:title" content="Bondo Matuatunguila - Família vamos construir">
+    <meta property="og:description" content="Escola Bindo Matuatunguila - Sistema de matrícula online e gestão académica">
+    <meta name="twitter:title" content="Bondo Matuatunguila - Família vamos construir">
+    <meta name="twitter:description" content="Escola Bindo Matuatunguila - Sistema de matrícula online e gestão académica">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary-color: #1e40af;
+            --secondary-color: #3b82f6;
+            --accent-color: #60a5fa;
+            --text-primary: #1f2937;
+            --text-secondary: #6b7280;
+            --bg-light: #f9fafb;
+            --success-color: #10b981;
+            --warning-color: #f59e0b;
+            --error-color: #ef4444;
+        }
+    }
+
+    @layer base {
+        body {
+            @apply bg-white text-[var(--text-primary)] font-sans;
+        }
+        h1 {
+            @apply text-4xl font-bold text-[var(--text-primary)];
+        }
+        h2 {
+            @apply text-3xl font-semibold text-[var(--text-primary)];
+        }
+        h3 {
+            @apply text-2xl font-semibold text-[var(--text-primary)];
+        }
+    }
+
+    @layer components {
+        .btn-primary {
+            @apply px-6 py-3 bg-[var(--primary-color)] text-white rounded-lg font-semibold hover:bg-[var(--secondary-color)] transition-all duration-300;
+        }
+        .btn-secondary {
+            @apply px-6 py-3 bg-white text-[var(--primary-color)] border-2 border-[var(--primary-color)] rounded-lg font-semibold hover:bg-[var(--primary-color)] hover:text-white transition-all duration-300;
+        }
+        .card {
+            @apply bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300;
+        }
+    }
+
+    @layer utilities {
+        .text-gradient {
+            @apply bg-gradient-to-r from-[var(--primary-color)] to-[var(--secondary-color)] bg-clip-text text-transparent;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/Hero.js"></script>
+    <script type="text/babel" src="components/Features.js"></script>
+    <script type="text/babel" src="components/About.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
