@@ -42,7 +42,8 @@ function Hero() {
                         Sistema de matrícula online e gestão académica para uma educação de excelência
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <button className="px-8 py-4 bg-transparent border-2 border-white text-white rounded-lg font-bold text-lg hover:bg-white hover:text-[var(--primary-color)] transition">
+                        <button onClick={() => window.location.href = 'matricula.html'}
+                        className="px-8 py-4 bg-transparent border-2 border-white text-white rounded-lg font-bold text-lg hover:bg-white hover:text-[var(--primary-color)] transition">
                             Fazer Matrícula Online
                         </button>
                         <button className="px-8 py-4 bg-white text-[var(--primary-color)] rounded-lg font-bold text-lg hover:bg-gray-100 transition">
