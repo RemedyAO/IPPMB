@@ -24,7 +24,7 @@ function Footer() {
               <div className="space-y-2 text-gray-300">
                 <p className="flex items-center">
                   <div className="icon-mail text-lg mr-2"></div>
-                  info@bindomatuatunguila.ao
+                  info@bondomatuatunguila.ao
                 </p>
                 <p className="flex items-center">
                   <div className="icon-phone text-lg mr-2"></div>
@@ -38,7 +38,7 @@ function Footer() {
             </div>
           </div>
           <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Bindo Matuatunguila. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Bondo Matuatunguila. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
