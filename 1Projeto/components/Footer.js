@@ -28,7 +28,7 @@ function Footer() {
                 </p>
                 <p className="flex items-center">
                   <div className="icon-phone text-lg mr-2"></div>
-                  +244 XXX XXX XXX
+                  +244 9XX XXX XXX
                 </p>
                 <p className="flex items-center">
                   <div className="icon-map-pin text-lg mr-2"></div>
