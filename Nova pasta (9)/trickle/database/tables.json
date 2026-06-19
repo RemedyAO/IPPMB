@@ -1,0 +1,272 @@
+[
+  {
+    "name": "matricula",
+    "fields": [
+      {
+        "name": "nomeCompleto",
+        "type": "text",
+        "description": "Nome completo do estudante",
+        "options": null
+      },
+      {
+        "name": "dataNascimento",
+        "type": "text",
+        "description": "Data de nascimento",
+        "options": null
+      },
+      {
+        "name": "genero",
+        "type": "text",
+        "description": "G\u00e9nero do estudante",
+        "options": [
+          "Masculino",
+          "Feminino"
+        ]
+      },
+      {
+        "name": "biEstudante",
+        "type": "text",
+        "description": "BI do estudante",
+        "options": null
+      },
+      {
+        "name": "biPai",
+        "type": "text",
+        "description": "BI do pai",
+        "options": null
+      },
+      {
+        "name": "biMae",
+        "type": "text",
+        "description": "BI da m\u00e3e",
+        "options": null
+      },
+      {
+        "name": "telefone",
+        "type": "text",
+        "description": "Telefone de contacto",
+        "options": null
+      },
+      {
+        "name": "email",
+        "type": "text",
+        "description": "Email de contacto",
+        "options": null
+      },
+      {
+        "name": "endereco",
+        "type": "text",
+        "description": "Endere\u00e7o residencial",
+        "options": null
+      },
+      {
+        "name": "cursoPretendido",
+        "type": "text",
+        "description": "Curso pretendido",
+        "options": [
+          "Ci\u00eancias F\u00edsicas e Biol\u00f3gicas",
+          "Ci\u00eancias Econ\u00f3micas e Jur\u00eddicas",
+          "Ci\u00eancias Humanas"
+        ]
+      },
+      {
+        "name": "classePretendida",
+        "type": "text",
+        "description": "Classe pretendida",
+        "options": [
+          "10\u00aa Classe",
+          "11\u00aa Classe",
+          "12\u00aa Classe",
+          "13\u00aa Classe"
+        ]
+      },
+      {
+        "name": "status",
+        "type": "text",
+        "description": "Estado da matr\u00edcula",
+        "options": [
+          "Pendente",
+          "Em An\u00e1lise",
+          "Aprovado",
+          "Recusado"
+        ]
+      },
+      {
+        "name": "submittedAt",
+        "type": "datetime",
+        "description": "Data de submiss\u00e3o",
+        "options": null
+      },
+      {
+        "name": "documents",
+        "type": "text",
+        "description": "Documentos anexados",
+        "options": null
+      }
+    ]
+  },
+  {
+    "name": "pre_inscricao",
+    "fields": [
+      {
+        "name": "nomeCompleto",
+        "type": "text",
+        "description": "Nome completo",
+        "options": null
+      },
+      {
+        "name": "dataNascimento",
+        "type": "text",
+        "description": "Data de nascimento",
+        "options": null
+      },
+      {
+        "name": "genero",
+        "type": "text",
+        "description": "G\u00e9nero",
+        "options": [
+          "Masculino",
+          "Feminino"
+        ]
+      },
+      {
+        "name": "telefone",
+        "type": "text",
+        "description": "Telefone",
+        "options": null
+      },
+      {
+        "name": "email",
+        "type": "text",
+        "description": "Email",
+        "options": null
+      },
+      {
+        "name": "cursoPretendido",
+        "type": "text",
+        "description": "Curso pretendido",
+        "options": null
+      },
+      {
+        "name": "classePretendida",
+        "type": "text",
+        "description": "Classe pretendida",
+        "options": null
+      },
+      {
+        "name": "mensagem",
+        "type": "text",
+        "description": "Mensagem adicional",
+        "options": null
+      }
+    ]
+  },
+  {
+    "name": "user_admin",
+    "fields": [
+      {
+        "name": "name",
+        "type": "text",
+        "description": "Nome do administrador",
+        "options": null
+      },
+      {
+        "name": "email",
+        "type": "text",
+        "description": "Email de login",
+        "options": null
+      },
+      {
+        "name": "password",
+        "type": "text",
+        "description": "Senha",
+        "options": null
+      },
+      {
+        "name": "createdAt",
+        "type": "datetime",
+        "description": "Data de cria\u00e7\u00e3o",
+        "options": null
+      }
+    ]
+  },
+  {
+    "name": "user_secretary",
+    "fields": [
+      {
+        "name": "name",
+        "type": "text",
+        "description": "Nome da secretaria",
+        "options": null
+      },
+      {
+        "name": "email",
+        "type": "text",
+        "description": "Email de login",
+        "options": null
+      },
+      {
+        "name": "password",
+        "type": "text",
+        "description": "Senha",
+        "options": null
+      },
+      {
+        "name": "createdAt",
+        "type": "datetime",
+        "description": "Data de cria\u00e7\u00e3o",
+        "options": null
+      }
+    ]
+  },
+  {
+    "name": "admin_user",
+    "fields": [
+      {
+        "name": "nomeCompleto",
+        "type": "text",
+        "description": "Nome completo do administrador",
+        "options": null
+      },
+      {
+        "name": "email",
+        "type": "text",
+        "description": "Email de login",
+        "options": null
+      },
+      {
+        "name": "password",
+        "type": "text",
+        "description": "Senha",
+        "options": null
+      },
+      {
+        "name": "telefone",
+        "type": "text",
+        "description": "N\u00famero de telefone",
+        "options": null
+      },
+      {
+        "name": "estado",
+        "type": "text",
+        "description": "Estado da conta",
+        "options": [
+          "Ativo",
+          "Desativado"
+        ]
+      },
+      {
+        "name": "ultimoAcesso",
+        "type": "datetime",
+        "description": "Data do \u00faltimo acesso",
+        "options": null
+      },
+      {
+        "name": "criadoEm",
+        "type": "datetime",
+        "description": "Data de cria\u00e7\u00e3o da conta",
+        "options": null
+      }
+    ]
+  }
+]
